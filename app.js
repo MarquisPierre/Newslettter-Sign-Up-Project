@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 })
 
 // Post to the server using mailchimp API
-app.post("/" , (req, res)=> {
+app.post("/" , fucntion (req, res) {
   const firstName = req.body.fname
   const lastName = req.body.lname
   const email = req.body.email
